@@ -15,6 +15,57 @@
 display: inline block* - we can add space*/
 
 * {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
   margin: 0;
   padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.price .header {
+  background-color: white;
+  color: rgb(39, 38, 38);
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+}
+
+.price-header {
+  font-size: 18px;
+  color: darkgray;
+}
+
+.price li {
+  border-bottom: 1px;
+  padding: 16px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: darkgray;
+}
+
+.button {
+  background-color: #3bc9db;
+  text-decoration: none;
+  border-radius: 25px;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
 }
