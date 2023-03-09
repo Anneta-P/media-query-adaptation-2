@@ -18,9 +18,9 @@ display: inline block* - we can add space*/
   box-sizing: border-box;
 }
 
-.columns {
+.column {
   float: left;
-  width: 33.3%;
+  /* width: 23.33%; */
   padding: 8px;
 }
 
@@ -68,4 +68,27 @@ display: inline block* - we can add space*/
   text-align: center;
   text-transform: uppercase;
   font-size: 18px;
+}
+
+.colortext {
+  color: #f08c00;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+/*GRIDS*/
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.container {
+  max-width: 120rem;
+  padding: 6rem 12rem;
+  margin: 0px auto;
+  text-align: center;
 }
