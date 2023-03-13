@@ -37,7 +37,6 @@
 .heading-secondary {
   font-size: 18px;
   line-height: 1;
-  margin-bottom: 2rem;
   color: rgb(94, 95, 95);
   font-family: 'Karla', sans-serif;
   text-transform: uppercase;
@@ -46,8 +45,6 @@
 .price {
   list-style-type: none;
   border: 1px solid #eee;
-  margin: 0;
-  padding: 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -94,6 +91,18 @@
   text-align: center;
   text-transform: uppercase;
   border: none;
+  cursor: pointer;
+  font-size: smaller;
+}
+
+.button:hover {
+  background-color: #f08c00; /* Green */
+  color: #3bc9db;
+  transition-duration: 0.4s;
+}
+
+.btn-padding {
+  margin-bottom: 10%;
 }
 
 .colortext {
@@ -101,7 +110,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .columns {
+  .column {
     width: 100%;
   }
 }
