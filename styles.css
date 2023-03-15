@@ -155,12 +155,17 @@
   font-family: 'Raleway', sans-serif;
   position: absolute;
   top: 6%;
-  left: 28%;
+  left: -15%;
   text-transform: uppercase;
   font-size: 0.7rem;
-  font-weight: 500;
-  color: white;
+  font-weight: 600;
+  color: #ffec99;
   background-color: #f08c00;
-  padding: 0.3rem 3rem;
+  padding: 0.6rem 2.6rem;
   transform: rotate(-45deg);
+}
+
+#business {
+  position: relative;
+  overflow: hidden;
 }
