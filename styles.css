@@ -25,7 +25,6 @@
 .header-primary {
   font-size: 30px;
   line-height: 1.2;
-  margin-bottom: 1rem;
   margin-top: 1rem;
   color: rgb(45, 45, 45);
   width: 100%;
@@ -39,6 +38,7 @@
   line-height: 1;
   color: rgb(94, 95, 95);
   font-family: 'Karla', sans-serif;
+  margin: 1% 0 3% 0;
   text-transform: uppercase;
 }
 
@@ -146,4 +146,21 @@
   .grid--4-cols {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+/**/
+#business ::after {
+  content: 'Recommend';
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  top: 6%;
+  left: 28%;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: white;
+  background-color: #f08c00;
+  padding: 0.3rem 3rem;
+  transform: rotate(-45deg);
 }
