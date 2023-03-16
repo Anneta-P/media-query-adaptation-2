@@ -148,20 +148,28 @@
   }
 }
 
-/**/
-#business::after {
-  content: 'Recommend';
+/* TODO: add queries for small screen, decrease width and height of the container at small screen dimensions*/
+.ribbon-wrapper {
+  overflow: hidden;
   position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+/* TODO: add queries for small screen, decrease font size  at small screen dimensions*/
+.ribbon {
+  position: relative;
+  left: -25%;
+  top: 15%;
+  transform: rotate(-45deg);
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
-  top: 4%;
-  left: -17%;
-  font-size: 0.5rem;
-  font-weight: 600;
+  font-family: bold, 'Raleway', sans-serif;
+  font-size: 0.7rem;
   background-color: #f08c00;
   color: #ffec99;
-  padding: 0.4rem 3.2rem;
-  transform: rotate(-45deg);
+  width: 100%;
+  text-align: center;
+  padding: 3%;
 }
 
 #business {
